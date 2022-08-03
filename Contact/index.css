@@ -1,0 +1,25 @@
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+}
+.contact-img {
+  width: 150px;
+}
+.contact-heading {
+  font-family: 'Roboto';
+  font-weight: bold;
+  line-height: 56px;
+  color: #551e53;
+}
+
+@media screen and (min-width: 768px) {
+  .contact-img {
+    width: 250px;
+  }
+  .contact-container {
+    height: 50vh;
+  }
+}
